@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Prueba - Git</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        .command-list {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .command-list li {
+            margin: 8px 0;
+            color: #333;
+        }
+        
+        code {
+            background: #e0e0e0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #c7254e;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #999;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Página de Prueba - Git</h1>
+        
+        <div class="info-box">
+            <p><strong>Bienvenido a esta página de práctica para aprender Git.</strong></p>
+            <p>Aquí podrás practicar los comandos básicos de control de versiones.</p>
+        </div>
+        
+        <h2>Comandos Git Básicos</h2>
+        <ul class="command-list">
+            <li><code>git init</code> - Inicializar un repositorio</li>
+            <li><code>git add</code> - Añadir cambios al área de preparación</li>
+            <li><code>git commit</code> - Confirmar cambios</li>
+            <li><code>git push</code> - Enviar cambios al repositorio remoto</li>
+            <li><code>git pull</code> - Descargar cambios del repositorio remoto</li>
+            <li><code>git branch</code> - Gestionar ramas</li>
+            <li><code>git merge</code> - Fusionar ramas</li>
+        </ul>
+        
+        <h2>Flujo de Trabajo Típico</h2>
+        <div class="info-box">
+            <ol class="command-list">
+                <li>Realizar cambios en los archivos</li>
+                <li>Usar <code>git add .</code> para preparar los cambios</li>
+                <li>Usar <code>git commit -m "mensaje"</code> para confirmar</li>
+                <li>Usar <code>git push</code> para enviar al servidor</li>
+            </ol>
+        </div>
+        
+        <h2>Consejos</h2>
+        <ul class="command-list">
+            <li>Siempre escribe mensajes de commit descriptivos</li>
+            <li>Haz commits pequeños y frecuentes</li>
+            <li>Crea ramas para nuevas características</li>
+            <li>Revisa los cambios antes de hacer commit</li>
+            <li>Usa <code>git log</code> para ver el historial</li>
+        </ul>
+        
+        <div class="footer">
+            <p>Created with ❤️ para practicar Git | 2025</p>
+        </div>
+    </div>
+</body>
+</html>
